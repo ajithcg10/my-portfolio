@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #080808;
+  color: #fff;
+  list-style: none;
+}
+.Wrapper {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
