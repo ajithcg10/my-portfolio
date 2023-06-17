@@ -2,9 +2,12 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  background-color: #080808;
+
   color: #fff;
   list-style: none;
+}
+body {
+  background-color: #040304;
 }
 .Wrapper {
   max-width: 90%;
