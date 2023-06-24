@@ -15,10 +15,10 @@ export default function Portfolio() {
         "Shopping Cart Project in React JS using Context API with useReducer Hook for State Management. This project include add to cart functionality along with sorting and filtering products by search also.",
     },
     {
-      id: 1,
+      id: 2,
       image: require("../assets/image/work-1.png"),
       work_name: "Angel Investing Web App",
-      link: "https://taid.in/",
+      link: "https://taid-clone.firebaseapp.com/",
       description:
         " TAID is a platform for potential Angel Investors to learn and understand different aspects of Angel Investing including its risks and benefits and invest in various startups",
     },
@@ -63,7 +63,10 @@ export default function Portfolio() {
   );
 }
 const Container = styled.div`
-  padding-top: 80px;
+  padding-top: 60px;
+  @media (max-width: 480px) {
+    padding-top: 20px;
+  }
 `;
 const Wrapper = styled.div``;
 const TopConatiner = styled.div`

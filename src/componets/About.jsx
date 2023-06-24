@@ -111,7 +111,7 @@ export default function About() {
   );
 }
 const Container = styled.div`
-  padding-top: 80px;
+  padding-top: 60px;
   height: 50vh;
   @media (max-width: 1280px) {
     height: 50vh;
@@ -121,6 +121,9 @@ const Container = styled.div`
   }
   @media (max-width: 768px) {
     height: 90vh;
+  }
+  @media (max-width: 480px) {
+    padding-top: 50px;
   }
 `;
 const Wrapper = styled.div`
