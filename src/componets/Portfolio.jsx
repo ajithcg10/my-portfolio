@@ -22,6 +22,14 @@ export default function Portfolio() {
       description:
         " TAID is a platform for potential Angel Investors to learn and understand different aspects of Angel Investing including its risks and benefits and invest in various startups",
     },
+    {
+      id: 3,
+      image: require("../assets/image/evnent_work.jpg"),
+      work_name: "Evently Web App",
+      link: "https://eventbliss-3iyg.vercel.app/",
+      description:
+        " Build an event organization web app like Eventbrite or Meetup with authentication, event management, search, filtering, categories, checkout, and payments using Next JS 14, Tailwind CSS, Shadcn, React Hook Form, Zod, Uploadthing, React-Datepicker, Mongoose, Clerk, and Stripe.",
+    },
   ];
 
   return (
@@ -109,6 +117,8 @@ const Item = styled.a``;
 // `;
 const Image = styled.img`
   display: block;
+  height: 60vh;
+
   border-radius: 12px;
   width: 100%;
 `;
