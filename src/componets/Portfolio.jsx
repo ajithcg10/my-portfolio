@@ -30,6 +30,14 @@ export default function Portfolio() {
       description:
         " Build an event organization web app like Eventbrite or Meetup with authentication, event management, search, filtering, categories, checkout, and payments using Next JS 14, Tailwind CSS, Shadcn, React Hook Form, Zod, Uploadthing, React-Datepicker, Mongoose, Clerk, and Stripe.",
     },
+    {
+      id: 4,
+      image: require("../assets/image/SkyEurope_logo.jpg"),
+      work_name: "skyeuro Web App",
+      link: "https://skyeuro.vercel.app/index.html",
+      description:
+        " By implementing these elements into the HTML template, the Skeyeuro International website effectively showcases its services, facilitates communication through WhatsApp integration, and provides valuable country-specific information to visitors.",
+    },
   ];
 
   return (
