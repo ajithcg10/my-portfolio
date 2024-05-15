@@ -38,6 +38,14 @@ export default function Portfolio() {
       description:
         " By implementing these elements into the HTML template, the Skeyeuro International website effectively showcases its services, facilitates communication through WhatsApp integration, and provides valuable country-specific information to visitors.",
     },
+    {
+      id: 5,
+      image: require("../assets/image/chatapp.jpeg"),
+      work_name: "helo chat webapp",
+      link: "https://halo-chat-two.vercel.app/",
+      description:
+        " Build a Full Stack NEXT.js 14 Real-time Chat Messaging App with fully complex functions by using Next.js, Next Auth for authentication, MongoDB for all database management, Pusher for Real-time messaging, React-Hook-Form for form validation, Tailwind CSS for a stunning UI design, and Next Cloudinary for image upload and storage. ",
+    },
   ];
 
   return (
@@ -54,6 +62,7 @@ export default function Portfolio() {
               return (
                 <Works>
                   <Item
+                    target="_blank"
                     href={data.link}
                     onMouseOver={() => {
                       setOpen(data.id);
