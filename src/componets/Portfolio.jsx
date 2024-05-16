@@ -44,7 +44,7 @@ export default function Portfolio() {
       work_name: "helo chat webapp",
       link: "https://halo-chat-two.vercel.app/",
       description:
-        " Build a Full Stack NEXT.js 14 Real-time Chat Messaging App with fully complex functions by using Next.js, Next Auth for authentication, MongoDB for all database management, Pusher for Real-time messaging, React-Hook-Form for form validation, Tailwind CSS for a stunning UI design, and Next Cloudinary for image upload and storage. ",
+        " Build a Full Stack NEXT.js 14 Real-time Chat Messaging App with fully complex functions by using Next.js, MongoDB for all database management, Pusher for Real-time messaging, React-Hook-Form for form validation, Tailwind CSS for a stunning UI design, and Next Cloudinary for image upload and storage. ",
     },
   ];
 
