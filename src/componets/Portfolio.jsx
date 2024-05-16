@@ -8,27 +8,27 @@ export default function Portfolio() {
   const works = [
     {
       id: 1,
-      image: require("../assets/image/work-3.png"),
-      work_name: "Shopping Cart Web App",
-      link: "https://j-store-a5ec8.web.app/",
+      image: require("../assets/image/bitbucket.jpg"),
+      work_name: "Bitbucket Web",
+      link: "https://bitbuket-clone.vercel.app/#",
       description:
-        "Shopping Cart Project in React JS using Context API with useReducer Hook for State Management. This project include add to cart functionality along with sorting and filtering products by search also.",
+        "This website is a simple exploration of HTML and CSS fundamentals. It showcases basic page structure, text formatting, and image integration.",
     },
     {
       id: 2,
-      image: require("../assets/image/work-1.png"),
-      work_name: "Angel Investing Web App",
-      link: "https://taid-clone.firebaseapp.com/",
+      image: require("../assets/image/wibits.png"),
+      work_name: "Wibbits Web",
+      link: "https://wibitz-clone.vercel.app/#",
       description:
-        " TAID is a platform for potential Angel Investors to learn and understand different aspects of Angel Investing including its risks and benefits and invest in various startups",
+        "This website is a simple exploration of HTML and CSS fundamentals. It showcases basic page structure, text formatting, and image integration.",
     },
     {
       id: 3,
-      image: require("../assets/image/evnent_work.jpg"),
-      work_name: "Evently Web App",
-      link: "https://eventbliss-3iyg.vercel.app/",
+      image: require("../assets/image/minimal.png"),
+      work_name: "Minimal Web",
+      link: "https://minimal-clone.vercel.app/#",
       description:
-        " Build an event organization web app like Eventbrite or Meetup with authentication, event management, search, filtering, categories, checkout, and payments using Next JS 14, Tailwind CSS, Shadcn, React Hook Form, Zod, Uploadthing, React-Datepicker, Mongoose, Clerk, and Stripe.",
+        "This website is a simple exploration of HTML and CSS fundamentals. It showcases basic page structure, text formatting, and image integration.",
     },
     {
       id: 4,
@@ -40,8 +40,33 @@ export default function Portfolio() {
     },
     {
       id: 5,
+      image: require("../assets/image/work-1.png"),
+      work_name: "Angel Investing Web App",
+      link: "https://taid-clone.firebaseapp.com/",
+      description:
+        " TAID is a platform for potential Angel Investors to learn and understand different aspects of Angel Investing including its risks and benefits and invest in various startups",
+    },
+    {
+      id: 6,
+      image: require("../assets/image/work-3.png"),
+      work_name: "Shopping Cart Web App",
+      link: "https://j-store-a5ec8.web.app/",
+      description:
+        "Shopping Cart Project in React JS using Context API with useReducer Hook for State Management. This project include add to cart functionality along with sorting and filtering products by search also.",
+    },
+    {
+      id: 7,
+      image: require("../assets/image/evnent_work.jpg"),
+      work_name: "Evently Web App",
+      link: "https://eventbliss-3iyg.vercel.app/",
+      description:
+        " Build an event organization web app like Eventbrite or Meetup with authentication, event management, search, filtering, categories, checkout, and payments using Next JS 14, Tailwind CSS, Shadcn, React Hook Form, Zod, Uploadthing, React-Datepicker, Mongoose, Clerk, and Stripe.",
+    },
+
+    {
+      id: 8,
       image: require("../assets/image/chatapp.jpeg"),
-      work_name: "helo chat webapp",
+      work_name: "helo chat Web App",
       link: "https://halo-chat-two.vercel.app/",
       description:
         " Build a Full Stack NEXT.js 14 Real-time Chat Messaging App with fully complex functions by using Next.js, MongoDB for all database management, Pusher for Real-time messaging, React-Hook-Form for form validation, Tailwind CSS for a stunning UI design, and Next Cloudinary for image upload and storage. ",
